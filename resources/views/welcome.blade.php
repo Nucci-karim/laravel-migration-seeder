@@ -17,6 +17,9 @@
 
 <body>
     <h1>prova</h1>
+    @foreach($trains as $elem)
+    <div>{{$elem['Azienda']}}</div>
+    @endforeach
 </body>
 
 </html>
